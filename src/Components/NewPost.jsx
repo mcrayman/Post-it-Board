@@ -23,7 +23,7 @@ function NewPost({ onCancel, onAddPost }) {
     onAddPost(postData);
     onCancel();
   }
-
+  
   return (
     <form className={classes.form} onSubmit={submitHandler}>
       <p>
